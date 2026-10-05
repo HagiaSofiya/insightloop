@@ -1,0 +1,537 @@
+{
+ "brief": "Sprout, a plant-care reminder app: why users churned and what would win them back",
+ "questions": [
+  "Why did you stop using the Sprout plant-care app?",
+  "What would bring you back to the app?"
+ ],
+ "topics": {
+  "1": [
+   "price",
+   "notifications",
+   "bugs",
+   "no_time",
+   "alternative"
+  ],
+  "2": [
+   "lower_price",
+   "fewer_reminders",
+   "reliability",
+   "plant_id",
+   "nothing"
+  ]
+ },
+ "respondents": [
+  {
+   "name": "Ava Lindqvist",
+   "age": 24,
+   "gender": "woman",
+   "answers": [
+    "The monthly subscription was too expensive for what I got.",
+    "Nothing really, I have moved on."
+   ],
+   "tags": [
+    [
+     "price"
+    ],
+    [
+     "nothing"
+    ]
+   ]
+  },
+  {
+   "name": "Ben Okafor",
+   "age": 31,
+   "gender": "man",
+   "answers": [
+    "It sent me way too many reminders and I started ignoring them.",
+    "Let me choose how often it reminds me and I would come back."
+   ],
+   "tags": [
+    [
+     "notifications"
+    ],
+    [
+     "fewer_reminders"
+    ]
+   ]
+  },
+  {
+   "name": "Carla Mendes",
+   "age": 45,
+   "gender": "woman",
+   "answers": [
+    "I switched to a simple spreadsheet that does the same thing for free. It also crashed a lot.",
+    "Fix the crashes and I would give it another go."
+   ],
+   "tags": [
+    [
+     "alternative",
+     "bugs"
+    ],
+    [
+     "reliability"
+    ]
+   ]
+  },
+  {
+   "name": "Dev Raman",
+   "age": 29,
+   "gender": "man",
+   "answers": [
+    "The constant pings every morning drove me up the wall.",
+    "A cheaper plan, or a one-time purchase, would get me to return."
+   ],
+   "tags": [
+    [
+     "notifications"
+    ],
+    [
+     "lower_price"
+    ]
+   ]
+  },
+  {
+   "name": "Elena Petrov",
+   "age": 52,
+   "gender": "woman",
+   "answers": [
+    "I just did not have the time to log everything anymore.",
+    "If I could group the reminders into one daily summary, that would help."
+   ],
+   "tags": [
+    [
+     "no_time"
+    ],
+    [
+     "fewer_reminders"
+    ]
+   ]
+  },
+  {
+   "name": "Frank Dubois",
+   "age": 63,
+   "gender": "man",
+   "answers": [
+    "I could not justify paying $12 a month to remind me to water a fern.",
+    "If it could identify a plant from a photo reliably, I would be back."
+   ],
+   "tags": [
+    [
+     "price"
+    ],
+    [
+     "plant_id"
+    ]
+   ]
+  },
+  {
+   "name": "Grace Tanaka",
+   "age": 27,
+   "gender": "woman",
+   "answers": [
+    "The app kept crashing whenever I opened my plant list.",
+    "If the subscription dropped to a few dollars a month I would come back."
+   ],
+   "tags": [
+    [
+     "bugs"
+    ],
+    [
+     "lower_price"
+    ]
+   ]
+  },
+  {
+   "name": "Hugo Silva",
+   "age": 38,
+   "gender": "man",
+   "answers": [
+    "It cost more than I wanted to spend on a hobby, so I canceled.",
+    "If it stopped losing my data I would return."
+   ],
+   "tags": [
+    [
+     "price"
+    ],
+    [
+     "reliability"
+    ]
+   ]
+  },
+  {
+   "name": "Imani Brooks",
+   "age": 41,
+   "gender": "woman",
+   "answers": [
+    "I got a notification for every single plant, every single day.",
+    "I do not think anything would, I do not need it anymore."
+   ],
+   "tags": [
+    [
+     "notifications"
+    ],
+    [
+     "nothing"
+    ]
+   ]
+  },
+  {
+   "name": "Jonas Weber",
+   "age": 22,
+   "gender": "man",
+   "answers": [
+    "A friend showed me a different plant app that I liked better.",
+    "Bring back the free tier with the basics and I am in."
+   ],
+   "tags": [
+    [
+     "alternative"
+    ],
+    [
+     "lower_price"
+    ]
+   ]
+  },
+  {
+   "name": "Kira Novak",
+   "age": 34,
+   "gender": "non-binary",
+   "answers": [
+    "The alerts were so frequent that I muted the app entirely.",
+    "A stable version that does not freeze would be enough."
+   ],
+   "tags": [
+    [
+     "notifications"
+    ],
+    [
+     "reliability"
+    ]
+   ]
+  },
+  {
+   "name": "Leo Castillo",
+   "age": 58,
+   "gender": "man",
+   "answers": [
+    "Work got busy and updating the app became a chore I skipped. The reminders were relentless too.",
+    "Probably nothing, my plants are fine without it."
+   ],
+   "tags": [
+    [
+     "no_time",
+     "notifications"
+    ],
+    [
+     "nothing"
+    ]
+   ]
+  },
+  {
+   "name": "Mia Johansson",
+   "age": 26,
+   "gender": "woman",
+   "answers": [
+    "The price kept going up and I finally decided it was not worth it.",
+    "An option to set quiet hours and fewer alerts would bring me back."
+   ],
+   "tags": [
+    [
+     "price"
+    ],
+    [
+     "fewer_reminders"
+    ]
+   ]
+  },
+  {
+   "name": "Noah Kim",
+   "age": 47,
+   "gender": "man",
+   "answers": [
+    "It froze on me constantly and I lost my watering log twice.",
+    "Better plant identification would be a big draw for me."
+   ],
+   "tags": [
+    [
+     "bugs"
+    ],
+    [
+     "plant_id"
+    ]
+   ]
+  },
+  {
+   "name": "Olive Grant",
+   "age": 33,
+   "gender": "woman",
+   "answers": [
+    "Honestly it was the subscription fee. I did not want another monthly charge.",
+    "I would return if there was a lower yearly fee."
+   ],
+   "tags": [
+    [
+     "price"
+    ],
+    [
+     "lower_price"
+    ]
+   ]
+  },
+  {
+   "name": "Pablo Ortiz",
+   "age": 55,
+   "gender": "man",
+   "answers": [
+    "My photos would not upload and the app was glitchy all the time.",
+    "Only remind me when a plant is actually thirsty, not on a fixed schedule."
+   ],
+   "tags": [
+    [
+     "bugs"
+    ],
+    [
+     "fewer_reminders"
+    ]
+   ]
+  },
+  {
+   "name": "Quinn Harper",
+   "age": 30,
+   "gender": "non-binary",
+   "answers": [
+    "I moved to a paper notebook, it works better for me.",
+    "I would return if the photo recognition stopped mixing up my succulents."
+   ],
+   "tags": [
+    [
+     "alternative"
+    ],
+    [
+     "plant_id"
+    ]
+   ]
+  },
+  {
+   "name": "Rosa Alvarez",
+   "age": 61,
+   "gender": "woman",
+   "answers": [
+    "Too many buzzes on my phone, so I turned it all off and forgot about it.",
+    "A discount for long-time users would do it."
+   ],
+   "tags": [
+    [
+     "notifications"
+    ],
+    [
+     "lower_price"
+    ]
+   ]
+  },
+  {
+   "name": "Sam Patel",
+   "age": 36,
+   "gender": "man",
+   "answers": [
+    "With two kids I could not keep up with entering every plant.",
+    "I would come back once syncing between devices works properly."
+   ],
+   "tags": [
+    [
+     "no_time"
+    ],
+    [
+     "reliability"
+    ]
+   ]
+  },
+  {
+   "name": "Tara Ng",
+   "age": 28,
+   "gender": "woman",
+   "answers": [
+    "For a bit of watering help the cost felt silly, so I dropped it.",
+    "I am not planning to come back."
+   ],
+   "tags": [
+    [
+     "price"
+    ],
+    [
+     "nothing"
+    ]
+   ]
+  },
+  {
+   "name": "Uma Reddy",
+   "age": 43,
+   "gender": "woman",
+   "answers": [
+    "I stopped because my schedule got packed and I forgot to open it.",
+    "Make it affordable and I will reinstall it tomorrow."
+   ],
+   "tags": [
+    [
+     "no_time"
+    ],
+    [
+     "lower_price"
+    ]
+   ]
+  },
+  {
+   "name": "Victor Hale",
+   "age": 49,
+   "gender": "man",
+   "answers": [
+    "Paying every month for something I barely opened seemed wasteful.",
+    "Make the app run smoothly and I will try it again."
+   ],
+   "tags": [
+    [
+     "price"
+    ],
+    [
+     "reliability"
+    ]
+   ]
+  },
+  {
+   "name": "Wendy Cho",
+   "age": 25,
+   "gender": "woman",
+   "answers": [
+    "Syncing between my phone and tablet never worked, it was buggy.",
+    "Nothing, I am happy with how things are now."
+   ],
+   "tags": [
+    [
+     "bugs"
+    ],
+    [
+     "nothing"
+    ]
+   ]
+  },
+  {
+   "name": "Xavier Moreau",
+   "age": 39,
+   "gender": "man",
+   "answers": [
+    "Another app had a nicer layout, so I moved over to that one.",
+    "Smarter reminders that skip days after rain or watering would do it."
+   ],
+   "tags": [
+    [
+     "alternative"
+    ],
+    [
+     "fewer_reminders"
+    ]
+   ]
+  },
+  {
+   "name": "Yara Haddad",
+   "age": 32,
+   "gender": "woman",
+   "answers": [
+    "I was getting reminder after reminder, even for plants I had just watered.",
+    "Accurate disease diagnosis from a picture would bring me back."
+   ],
+   "tags": [
+    [
+     "notifications"
+    ],
+    [
+     "plant_id"
+    ]
+   ]
+  },
+  {
+   "name": "Zane Fischer",
+   "age": 57,
+   "gender": "man",
+   "answers": [
+    "Life got hectic and tracking my plants fell off my list.",
+    "A free plan with unlimited plants would win me back."
+   ],
+   "tags": [
+    [
+     "no_time"
+    ],
+    [
+     "lower_price"
+    ]
+   ]
+  },
+  {
+   "name": "Alma Rossi",
+   "age": 21,
+   "gender": "woman",
+   "answers": [
+    "It got too expensive after the free trial ended.",
+    "A weekly digest instead of daily pings would be perfect."
+   ],
+   "tags": [
+    [
+     "price"
+    ],
+    [
+     "fewer_reminders"
+    ]
+   ]
+  },
+  {
+   "name": "Bruno Costa",
+   "age": 44,
+   "gender": "man",
+   "answers": [
+    "I did not have spare minutes to maintain the app every week.",
+    "A feature that tells me what is wrong with a sick leaf would do it."
+   ],
+   "tags": [
+    [
+     "no_time"
+    ],
+    [
+     "plant_id"
+    ]
+   ]
+  },
+  {
+   "name": "Chloe Evans",
+   "age": 35,
+   "gender": "woman",
+   "answers": [
+    "The yearly fee was more than I wanted to pay.",
+    "Less money per month, that is all it would take."
+   ],
+   "tags": [
+    [
+     "price"
+    ],
+    [
+     "lower_price"
+    ]
+   ]
+  },
+  {
+   "name": "Dario Greco",
+   "age": 66,
+   "gender": "man",
+   "answers": [
+    "After the last update it crashed every time I launched it.",
+    "No more bugs, that is my only condition."
+   ],
+   "tags": [
+    [
+     "bugs"
+    ],
+    [
+     "reliability"
+    ]
+   ]
+  }
+ ]
+}

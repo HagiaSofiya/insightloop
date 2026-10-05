@@ -1,0 +1,50 @@
+name: evals
+
+# Runs the golden evals when prompts or the code that uses them change. It calls the real OpenAI API
+# (a few cents per run), so it needs the OPENAI_API_KEY repository secret.
+on:
+  pull_request:
+    paths:
+      - "services/api/app/prompts/**"
+      - "services/api/app/agent.py"
+      - "services/api/app/ask.py"
+      - "services/api/app/tools.py"
+      - "services/api/app/retrieval.py"
+      - "services/api/app/verifier.py"
+      - "services/api/app/judge.py"
+      - "evals/**"
+
+jobs:
+  evals:
+    runs-on: ubuntu-latest
+    services:
+      db:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: insightloop
+          POSTGRES_PASSWORD: insightloop
+          POSTGRES_DB: insightloop
+        ports: ["5433:5432"]
+        options: >-
+          --health-cmd "pg_isready -U insightloop" --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    defaults:
+      run:
+        working-directory: services/api
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: services/api/requirements-dev.txt
+      - run: pip install -r requirements-dev.txt
+      - name: Unit tests (no real LLM calls)
+        run: python -m pytest -q
+      - name: Apply the schema and seed the golden study
+        run: |
+          PGPASSWORD=insightloop psql -h localhost -p 5433 -U insightloop -d insightloop -f schema.sql
+          python -m app.cli eval-seed
+      - name: Run the evals and fail on a regression
+        run: python -m app.cli eval --gate

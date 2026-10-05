@@ -1,0 +1,17 @@
+{
+  "agent/v1.md": "11f415a043cdbbd8d938138e6424e2c09bfa2030c0325fca0ec0609616660654",
+  "agent/v2.md": "1234fe580fc2419fafac4b33af0eed9df6e42aff1c6783a477d46bba59d3b105",
+  "ask/v1.md": "a07618f1d586a56024efbbc4c2dafca4160224c0cfbb755ae3edeb6235fde306",
+  "critic/v1.md": "3db1ab6f617b368580c53167f186fec04b66a9170f24106e7e88b887ea8bfd5a",
+  "discussion_guide/v1.md": "39c27a4fe9c6b4d766858def03d0095ed0b9a166f1e18709c3cd9f06afdb1eb6",
+  "discussion_guide/v2.md": "2e63d5f20de0017cb12cf249559183a4228c1068f842d0627c19d45f4212e2f1",
+  "judge/v1.md": "6e8f2e2dbfc1125d42b3f77632ed47fecc49fce00c962c49bd7e8cad8fadca0f",
+  "persona/v1.md": "05581b5e72e438a95e36e64cbb5a1d144aa7b5aa1ffb54dfc8906b2aa3dff11a",
+  "persona/v2.md": "3e0dc8c7d224eccb4b16a77df646896f3a2795cc876cfcb888f0cb249aff3b63",
+  "planner/v1.md": "61286ced48ee4ef1c04d5aedd24bc5a8d14eac4b768813cb7bd3c5fd783520b0",
+  "rerank/v1.md": "505f946b468953dede21da3742724705cb6d2c0b845c8b6f42045699339bee76",
+  "respondent/v1.md": "abf86c9f8f4352e51c2dcf6c38c1f3a9837e87386957c63a77252d6df4cade51",
+  "synthesizer/v1.md": "da4b2f910d968049a5f24dc60655b32acc32cb7ad3a9dfac525ea076dd57a54b",
+  "theme_label/v1.md": "a13ecac0d42de25a32def6f3f9855efb327cb6ce952b55e4097102d0ae2326e0",
+  "theme_label/v2.md": "eeba3fcef3fabdc763b458ecd9de6359506f839dbeec4fd839bcc0255ba9c750"
+}

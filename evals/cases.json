@@ -1,0 +1,177 @@
+{
+ "study": "golden_dataset.json",
+ "cases": [
+  {
+   "id": "c01",
+   "kind": "retrieval",
+   "question": "Do people stop using the app because of the subscription price?",
+   "question_number": 1,
+   "topic": "price",
+   "also_relevant": [
+    {
+     "question_number": 2,
+     "topic": "lower_price"
+    }
+   ]
+  },
+  {
+   "id": "c02",
+   "kind": "retrieval",
+   "question": "Are people annoyed by the notifications?",
+   "question_number": 1,
+   "topic": "notifications",
+   "also_relevant": [
+    {
+     "question_number": 2,
+     "topic": "fewer_reminders"
+    }
+   ]
+  },
+  {
+   "id": "c03",
+   "kind": "retrieval",
+   "question": "Do users report crashes or bugs?",
+   "question_number": 1,
+   "topic": "bugs",
+   "also_relevant": [
+    {
+     "question_number": 2,
+     "topic": "reliability"
+    }
+   ]
+  },
+  {
+   "id": "c04",
+   "kind": "retrieval",
+   "question": "Do people say they ran out of time to keep up with the app?",
+   "question_number": 1,
+   "topic": "no_time"
+  },
+  {
+   "id": "c05",
+   "kind": "retrieval",
+   "question": "Did anyone switch to a different tool or app?",
+   "question_number": 1,
+   "topic": "alternative"
+  },
+  {
+   "id": "c06",
+   "kind": "retrieval",
+   "question": "What price change would win people back?",
+   "question_number": 2,
+   "topic": "lower_price",
+   "also_relevant": [
+    {
+     "question_number": 1,
+     "topic": "price"
+    }
+   ]
+  },
+  {
+   "id": "c07",
+   "kind": "retrieval",
+   "question": "What change to the reminders would win people back?",
+   "question_number": 2,
+   "topic": "fewer_reminders",
+   "also_relevant": [
+    {
+     "question_number": 1,
+     "topic": "notifications"
+    }
+   ]
+  },
+  {
+   "id": "c08",
+   "kind": "retrieval",
+   "question": "Would fixing stability and syncing bring people back?",
+   "question_number": 2,
+   "topic": "reliability",
+   "also_relevant": [
+    {
+     "question_number": 1,
+     "topic": "bugs"
+    }
+   ]
+  },
+  {
+   "id": "c09",
+   "kind": "retrieval",
+   "question": "Would better plant identification bring people back?",
+   "question_number": 2,
+   "topic": "plant_id"
+  },
+  {
+   "id": "c10",
+   "kind": "retrieval",
+   "question": "Who says nothing would bring them back?",
+   "question_number": 2,
+   "topic": "nothing"
+  },
+  {
+   "id": "c11",
+   "kind": "count",
+   "question": "How many respondents stopped because of price?",
+   "question_number": 1,
+   "topic": "price",
+   "expected_count": 9,
+   "tolerance": 0
+  },
+  {
+   "id": "c12",
+   "kind": "count",
+   "question": "How many respondents stopped because of too many notifications?",
+   "question_number": 1,
+   "topic": "notifications",
+   "expected_count": 7,
+   "tolerance": 0
+  },
+  {
+   "id": "c13",
+   "kind": "count",
+   "question": "How many respondents stopped because of crashes or bugs?",
+   "question_number": 1,
+   "topic": "bugs",
+   "expected_count": 6,
+   "tolerance": 0
+  },
+  {
+   "id": "c14",
+   "kind": "count",
+   "question": "How many respondents say nothing would bring them back?",
+   "question_number": 2,
+   "topic": "nothing",
+   "expected_count": 5,
+   "tolerance": 0
+  },
+  {
+   "id": "c15",
+   "kind": "count",
+   "question": "How many respondents under 30 stopped because of price?",
+   "question_number": 1,
+   "topic": "price",
+   "expected_count": 4,
+   "tolerance": 0,
+   "filter": "under_30"
+  },
+  {
+   "id": "c16",
+   "kind": "unanswerable",
+   "question": "What do respondents think of the app's dark mode?"
+  },
+  {
+   "id": "c17",
+   "kind": "unanswerable",
+   "question": "How do respondents feel about the CEO's resignation?"
+  },
+  {
+   "id": "c18",
+   "kind": "unanswerable",
+   "question": "What do respondents say about plant pot shipping speed?"
+  },
+  {
+   "id": "c19",
+   "kind": "unanswerable",
+   "question": "What do respondents think of the Apple Watch app?"
+  }
+ ]
+}

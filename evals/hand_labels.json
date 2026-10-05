@@ -1,0 +1,72 @@
+[
+ {
+  "case_id": "c01",
+  "question": "Do people stop using the app because of the subscription price?",
+  "answer": "Yes, several respondents indicate that the subscription price influenced their decision to stop using the app. One respondent stated, \"The monthly subscription was too expensive for what I got\" [R13378], while another mentioned that \"it was the subscription fee\" that led to their discontinuation [R13406]. Additionally, one respondent noted that \"the price kept going up\" and ultimately decided it was not worth it [R13402].",
+  "judge_score": 5,
+  "human_score": null
+ },
+ {
+  "case_id": "c02",
+  "question": "Are people annoyed by the notifications?",
+  "answer": "Yes, respondents indicated annoyance with the notifications from the Sprout plant-care app. One respondent mentioned receiving \"a notification for every single plant, every single day\" which contributed to their decision to stop using the app [13394], while another stated that the alerts were \"so frequent that I muted the app entirely\" [13398].",
+  "judge_score": 4,
+  "human_score": null
+ },
+ {
+  "case_id": "c03",
+  "question": "Do users report crashes or bugs?",
+  "answer": "Users do report crashes and bugs with the app. Several respondents mentioned issues such as frequent crashes and bugs being a reason for leaving the app, including specific complaints like \"Fix the crashes and I would give it another go\" [R13383] and \"After the last update it crashed every time I launched it\" [R13436].",
+  "judge_score": 4,
+  "human_score": null
+ },
+ {
+  "case_id": "c04",
+  "question": "Do people say they ran out of time to keep up with the app?",
+  "answer": "One respondent indicated that they stopped using the app because they got busy and found updating the app to be a chore they skipped, suggesting a time issue. However, another respondent indicated technical problems as the reason for stopping use without mentioning time constraints.",
+  "judge_score": 4,
+  "human_score": null
+ },
+ {
+  "case_id": "c05",
+  "question": "Did anyone switch to a different tool or app?",
+  "answer": "Yes, several respondents indicated they switched to different tools or apps. One respondent mentioned they switched because 'a friend showed me a different plant app that I liked better' [R13396]. Another noted they switched to 'a simple spreadsheet that does the same thing for free' [R13382]. A third respondent stated they moved to another app for its nicer layout [R13424].",
+  "judge_score": 4,
+  "human_score": null
+ },
+ {
+  "case_id": "c06",
+  "question": "What price change would win people back?",
+  "answer": "Respondents suggested various price changes and features that could bring them back to the app. One respondent mentioned a desire for a free plan with unlimited plants ([R13429] \"A free plan with unlimited plants would win me back.\"), while another would return if the subscription cost dropped to a few dollars a month ([R13391] \"If the subscription dropped to a few dollars a month I would come back.\"). Others focused more on features like customizable alerts rather than price adjustments.",
+  "judge_score": 4,
+  "human_score": null
+ },
+ {
+  "case_id": "c07",
+  "question": "What change to the reminders would win people back?",
+  "answer": "To win people back to the app, respondents indicated several changes to reminders. These include allowing users to choose the frequency of reminders (R13381), consolidating reminders into one daily summary (R13387), providing smarter reminders that adapt to conditions (R13425), and offering an option for quiet hours to minimize alerts (R13403). Respondents agree that the current volume of reminders is overwhelming and contributes to their disengagement from the app.",
+  "judge_score": 5,
+  "human_score": null
+ },
+ {
+  "case_id": "c08",
+  "question": "Would fixing stability and syncing bring people back?",
+  "answer": "Yes, fixing stability and syncing would likely bring some respondents back to the app. Specifically, one respondent stated they would return \"once syncing between devices works properly\" [13415], while another expressed a desire for the app to \"fix the crashes\" [13383]. Additionally, there is mention of syncing troubles having influenced a respondent's decision to stop using the app [13422].",
+  "judge_score": 4,
+  "human_score": null
+ },
+ {
+  "case_id": "c09",
+  "question": "Would better plant identification bring people back?",
+  "answer": "Yes, better plant identification would bring some people back to the app. For example, one respondent stated, \"Better plant identification would be a big draw for me\" [13405]. Another mentioned that they would return if it could \"identify a plant from a photo reliably\" [13389].",
+  "judge_score": 4,
+  "human_score": null
+ },
+ {
+  "case_id": "c10",
+  "question": "Who says nothing would bring them back?",
+  "answer": "Two respondents indicate that nothing would bring them back to the app. One respondent states, \"Nothing really, I have moved on\" [R13379], and another mentions, \"Probably nothing, my plants are fine without it\" [R13401].",
+  "judge_score": 4,
+  "human_score": null
+ }
+]

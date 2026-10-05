@@ -1,0 +1,19 @@
+{
+ "metrics": {
+  "recall_at_5": 0.695,
+  "answer_rate": 1.0,
+  "citation_validity": 1.0,
+  "numeric_closeness": 0.3626984126984127,
+  "numeric_exact": 0.0,
+  "refusal_rate": 1.0,
+  "judge_quality": 0.85
+ },
+ "versions": {
+  "ask": "v1",
+  "agent": "v2",
+  "theme_label": "v2",
+  "judge": "v1",
+  "answer_model": "gpt-4o-mini",
+  "agent_model": "gpt-4o-mini"
+ }
+}
